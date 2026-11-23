@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đèn Kéo Quân - Bài Tập 24</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="sv-info">
+        <span class="sv-badge">MSSV: 241A290032</span>
+        <span>Phùng Lê Anh Triết</span>
+      </div>
+      <nav class="menu" aria-label="Menu chính">
+        <a href="index.html">Trang chủ</a>
+        <a href="den-keo-quan.html" class="active">Đèn kéo quân</a>
+        <a href="bt17.html">BT 17</a>
+        <a href="bt18.html">BT 18</a>
+        <a href="bt19.html">BT 19</a>
+        <a href="bt20.html">BT 20</a>
+        <a href="bt21.html">BT 21</a>
+        <a href="bt22.html">BT 22</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="lantern-box">
+      <h1>🏮 Đèn Kéo Quân 6 Mặt (Hiệu Ứng JavaScript)</h1>
+      <p>Đưa chuột vào 1 hình bất kỳ thì đèn dừng lại — rê chuột ra ngoài thì đèn quay tiếp.</p>
+
+      <div id="statusText" class="status-pill">🔄 Đèn kéo quân đang quay vòng tròn...</div>
+
+      <div class="cap-top"></div>
+
+      <div class="scene">
+        <div id="carousel" class="carousel">
+          <div class="face">
+            <img src="images/anh1.jpg" alt="Hình 1 của bạn" />
+            <div class="face-caption">Mặt 1</div>
+          </div>
+          <div class="face">
+            <img src="images/anh2.jpg" alt="Hình 2 của bạn" />
+            <div class="face-caption">Mặt 2</div>
+          </div>
+          <div class="face">
+            <img src="images/anh3.jpg" alt="Hình 3 của bạn" />
+            <div class="face-caption">Mặt 3</div>
+          </div>
+          <div class="face">
+            <img src="images/anh4.jpg" alt="Hình 4 của bạn" />
+            <div class="face-caption">Mặt 4</div>
+          </div>
+          <div class="face">
+            <img src="images/anh5.jpg" alt="Hình 5 của bạn" />
+            <div class="face-caption">Mặt 5</div>
+          </div>
+          <div class="face">
+            <img src="images/anh6.jpg" alt="Hình 6 của bạn" />
+            <div class="face-caption">Mặt 6</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cap-bottom"></div>
+
+      <div class="actions" style="justify-content: center; margin-top: 22px;">
+        <button id="toggleDir" class="btn btn-dark" type="button">🔁 Đổi chiều quay</button>
+        <a href="index.html" class="btn btn-gold">← Về trang chủ</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      MSSV: 241A290032 — Phùng Lê Anh Triết | Bài tập 24 - Đèn kéo quân
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
